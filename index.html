@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            gap:5px;
+            padding:12px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <label>First name</label>
+        <input type="text" name="name1" id="i1"><br>
+        <label>Last name</label>
+        <input type="text" name="name2" id="i2"><br>
+        <label>Phone number</label>
+        <input type="text" name="phone" id="i3"><br>
+        <label>Email</label>
+        <input type="email" name="email" id="i4"><br>
+        <label>Country</label>
+        <!-- <input type="d" name="country" id="i5"><br> -->
+        <select id="i5">
+            <option value="india">india</option>
+            <option value="us">us</option>
+        </select><br>
+        <label>Role</label>
+        <select id="i6">
+            <option value="student">student</option>
+            <option value="admin">admin</option>
+        </select><br>
+        <label>DOB</label>
+        <input type="date" name="dob" id="i7"><br>
+        <label>New password</label>
+        <input type="text" name="newpass" id="i8"><br>
+        <label>Confirm password</label>
+        <input type="text" name="confpass" id="i9"><br>
+        <label>Check</label>
+        <input type="checkbox" name="check" id="i10" value="true"><br>
+        <button onclick="sub()">submit</button>
+
+    </div>
+    <script src="script.js"></script>
+    <p id="out">result</p>
+
+    <pre id="result"></pre>
+
+</body>
+</html>
